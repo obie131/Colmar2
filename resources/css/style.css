@@ -50,8 +50,6 @@ nav ul li{
 .learn .left img{
   width: 100%;
 
-
-
 }
 .learn .right{
   width: 40%;
@@ -105,6 +103,12 @@ nav ul li{
 .about .left h3{
   font-size: 1.5rem;
   padding-top: 1.5rem;
+}
+.about .left h4{
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
 }
 
 .about .right .info{
@@ -170,6 +174,9 @@ background-color: grey;
 .degrees .program h1, h2, h4{
   padding: 0.5rem 1rem;
 }
+.degrees .program h4{
+  padding: 0.5rem 1rem;
+}
 .degrees .program h1{
   font-size: 2rem;
 }
@@ -179,6 +186,7 @@ background-color: grey;
 .degrees .program h4{
   font-size: 1rem;
 }
+
 
 /*    THESIS      */
 
@@ -222,6 +230,7 @@ background-color: grey;
 }
 .thesis .right h4{
   font-size: 1rem;
+
 }
 .thesis .right h2, h4, button{
   padding: 0.5rem 0;
@@ -236,3 +245,12 @@ background-color: grey;
   width: auto;
   padding: 1rem 1rem;
 }
+
+/*   FOOTER    */
+ footer{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   padding: 1rem 2rem;
+   font-size: 1rem;
+ }
