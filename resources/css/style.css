@@ -299,4 +299,12 @@ footer {
     width: 100%;
     height: 64px;
   }
+  .learn{
+    display: inline;
+
+  }
+  .learn .right{
+    background-color: grey;
+    width: 100%;
+  }
 }
