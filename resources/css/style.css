@@ -12,6 +12,7 @@ header{
 display: flex;
 justify-content: space-between;
 padding: 1rem 1.5rem;
+width: 100%;
 
 }
 .logo{
@@ -52,26 +53,26 @@ nav ul li{
 
 
 }
-.right{
+.learn .right{
   width: 40%;
   padding-left: 2rem;
 
 }
-.right span{
+.learn .right span{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.right h1{
+.learn .right h1{
   font-size: 4rem;
   padding-bottom: 2rem;
 }
-.right h3{
+.learn .right h3{
   font-size: 2rem;
   padding-bottom: 2rem;
 
 }
-.right button{
+.learn .right button{
   font-size: 2.5rem;
   width: 100%;
   padding: 0.5rem 0;
@@ -93,6 +94,7 @@ nav ul li{
 }
 .about .left img{
   width: 100%;
+
 }
 
 .about .left h1{
@@ -103,4 +105,134 @@ nav ul li{
 .about .left h3{
   font-size: 1.5rem;
   padding-top: 1.5rem;
+}
+
+.about .right .info{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.about .right .moreinfo{
+  padding-left: 2rem;
+}
+
+.about .right h2{
+  font-size: 2rem;
+}
+.about .right h4{
+  font-size: 1rem;
+}
+.about .right h2, h4, button{
+  padding: 0.5rem 0;
+}
+.about .right button{
+  background-color: white;
+  border: none;
+  color: blue;
+}
+
+.about .right .info img{
+  width: auto;
+  padding: 1rem 1rem;
+}
+
+.startlearn{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 4rem;
+  padding: 2rem 0;
+  background-color: grey;
+}
+
+
+/*         DEGREES               */
+
+.degrees{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+padding: 2rem 4rem;
+background-color: grey;
+
+}
+
+.degrees .program{
+  background-color: white;
+  padding: 2rem 1rem;
+
+}
+.degrees .program img{
+  padding-top: 2rem;
+}
+.degrees .program h1, h2, h4{
+  padding: 0.5rem 1rem;
+}
+.degrees .program h1{
+  font-size: 2rem;
+}
+.degrees .program h2{
+  font-size: 1.5rem;
+}
+.degrees .program h4{
+  font-size: 1rem;
+}
+
+/*    THESIS      */
+
+.thesis{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  width: 100%;
+}
+.thesis .left{
+  width: 60%;
+}
+.thesis .left img{
+  width: 100%;
+
+}
+
+.thesis .left h1{
+  padding-top: 2rem;
+  font-size: 4rem;
+
+}
+.thesis .left h3{
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.thesis .right .info{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.thesis .right .moreinfo{
+  padding-left: 2rem;
+}
+
+.thesis .right h2{
+  font-size: 2rem;
+}
+.thesis .right h4{
+  font-size: 1rem;
+}
+.thesis .right h2, h4, button{
+  padding: 0.5rem 0;
+}
+.thesis .right button{
+  background-color: white;
+  border: none;
+  color: blue;
+}
+
+.thesis .right .info img{
+  width: auto;
+  padding: 1rem 1rem;
 }
