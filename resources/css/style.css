@@ -1,42 +1,51 @@
-html{
+html {
   font-size: 16px;
   line-height: 1.2;
 }
 
-.container{
+.container {
   width: 960px;
 }
 
-/*            HEADER               */
-header{
-display: flex;
-justify-content: space-between;
-padding: 1rem 1.5rem;
-width: 100%;
 
+/*            HEADER               */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  width: 100%;
 }
-.logo{
+
+.logo {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   -ms-align-items: center;
   align-items: center;
-
 }
-.logo img{
+
+.logo img {
   height: 2rem;
 }
-.lastword{
+
+.lastword {
   color: grey;
 }
-nav ul li{
+
+nav ul li {
   display: inline;
   padding-left: 1rem;
-
 }
 
+.mobilenav {
+  display: none;
+}
+
+
 /*            Learn         */
-.learn{
+
+.learn {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,104 +53,112 @@ nav ul li{
   background-color: darkgrey;
   width: 100%;
 }
-.learn .left{
+
+.learn .left {
   width: 60%;
 }
-.learn .left img{
-  width: 100%;
 
+.learn .left img {
+  width: 100%;
 }
-.learn .right{
+
+.learn .right {
   width: 40%;
   padding-left: 2rem;
+}
 
+.learn .right span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.learn .right span{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.learn .right h1{
+
+.learn .right h1 {
   font-size: 4rem;
   padding-bottom: 2rem;
 }
-.learn .right h3{
+
+.learn .right h3 {
   font-size: 2rem;
   padding-bottom: 2rem;
-
 }
-.learn .right button{
+
+.learn .right button {
   font-size: 2.5rem;
   width: 100%;
   padding: 0.5rem 0;
-
-
 }
+
 
 /*     CAMPUS INFO      */
 
-.about{
+.about {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1.5rem;
   width: 100%;
 }
-.about .left{
+
+.about .left {
   width: 60%;
 }
-.about .left img{
-  width: 100%;
 
+.about .left img {
+  width: 100%;
 }
 
-.about .left h1{
+.about .left h1 {
   padding-top: 2rem;
   font-size: 4rem;
-
 }
-.about .left h3{
+
+.about .left h3 {
   font-size: 1.5rem;
   padding-top: 1.5rem;
 }
-.about .left h4{
+
+.about .left h4 {
   font-size: 1.2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-
 }
 
-.about .right .info{
-  display:flex;
+.about .right .info {
+  display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
 }
-.about .right .moreinfo{
+
+.about .right .moreinfo {
   padding-left: 2rem;
 }
 
-.about .right h2{
+.about .right h2 {
   font-size: 2rem;
 }
-.about .right h4{
+
+.about .right h4 {
   font-size: 1rem;
 }
-.about .right h2, h4, button{
+
+.about .right h2, h4, button {
   padding: 0.5rem 0;
 }
-.about .right button{
+
+.about .right button {
   background-color: white;
   border: none;
   color: blue;
 }
 
-.about .right .info img{
+.about .right .info img {
   width: auto;
   padding: 1rem 1rem;
 }
 
-.startlearn{
+.startlearn {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -153,104 +170,133 @@ nav ul li{
 
 /*         DEGREES               */
 
-.degrees{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-width: 100%;
-padding: 2rem 4rem;
-background-color: grey;
-
+.degrees {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2rem 4rem;
+  background-color: grey;
 }
 
-.degrees .program{
+.degrees .program {
   background-color: white;
   padding: 2rem 1rem;
-
 }
-.degrees .program img{
+
+.degrees .program img {
   padding-top: 2rem;
 }
-.degrees .program h1, h2, h4{
+
+.degrees .program h1, h2, h4 {
   padding: 0.5rem 1rem;
 }
-.degrees .program h4{
+
+.degrees .program h4 {
   padding: 0.5rem 1rem;
 }
-.degrees .program h1{
+
+.degrees .program h1 {
   font-size: 2rem;
 }
-.degrees .program h2{
+
+.degrees .program h2 {
   font-size: 1.5rem;
 }
-.degrees .program h4{
+
+.degrees .program h4 {
   font-size: 1rem;
 }
 
 
 /*    THESIS      */
 
-.thesis{
+.thesis {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1.5rem;
   width: 100%;
 }
-.thesis .left{
+
+.thesis .left {
   width: 60%;
 }
-.thesis .left img{
-  width: 100%;
 
+.thesis .left img {
+  width: 100%;
 }
 
-.thesis .left h1{
+.thesis .left h1 {
   padding-top: 2rem;
   font-size: 4rem;
-
 }
-.thesis .left h3{
+
+.thesis .left h3 {
   font-size: 1.5rem;
   padding-top: 1.5rem;
 }
 
-.thesis .right .info{
-  display:flex;
+.thesis .right .info {
+  display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
 }
-.thesis .right .moreinfo{
+
+.thesis .right .moreinfo {
   padding-left: 2rem;
 }
 
-.thesis .right h2{
+.thesis .right h2 {
   font-size: 2rem;
 }
-.thesis .right h4{
-  font-size: 1rem;
 
+.thesis .right h4 {
+  font-size: 1rem;
 }
-.thesis .right h2, h4, button{
+
+.thesis .right h2, h4, button {
   padding: 0.5rem 0;
 }
-.thesis .right button{
+
+.thesis .right button {
   background-color: white;
   border: none;
   color: blue;
 }
 
-.thesis .right .info img{
+.thesis .right .info img {
   width: auto;
   padding: 1rem 1rem;
 }
 
+
 /*   FOOTER    */
- footer{
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
-   padding: 1rem 2rem;
-   font-size: 1rem;
- }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+
+/*      MEDIA QUERIES        */
+
+@media only screen and (max-width: 560px) {
+  header .logo {
+    display: none;
+  }
+  header nav{
+    display: none;
+  }
+  .mobilenav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 64px;
+  }
+}
