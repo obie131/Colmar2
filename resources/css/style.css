@@ -43,11 +43,12 @@ nav ul li{
   background-color: darkgrey;
   width: 100%;
 }
-.left{
+.learn .left{
   width: 60%;
 }
-.left img{
+.learn .left img{
   width: 100%;
+
 
 
 }
@@ -76,4 +77,30 @@ nav ul li{
   padding: 0.5rem 0;
 
 
+}
+
+/*     CAMPUS INFO      */
+
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  width: 100%;
+}
+.about .left{
+  width: 60%;
+}
+.about .left img{
+  width: 100%;
+}
+
+.about .left h1{
+  padding-top: 2rem;
+  font-size: 4rem;
+
+}
+.about .left h3{
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
 }
