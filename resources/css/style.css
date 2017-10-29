@@ -207,9 +207,22 @@ nav ul li {
 .degrees .program h4 {
   font-size: 1rem;
 }
+.mobiledegree{
+  display: none;
+}
 
 
 /*    THESIS      */
+.thesislearn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 4rem;
+  padding: 2rem 0;
+
+}
+
+
 
 .thesis {
   display: flex;
@@ -286,6 +299,11 @@ footer {
 /*      MEDIA QUERIES        */
 
 @media only screen and (max-width: 560px) {
+
+
+  header{
+      padding: 0 0;
+    }
   header .logo {
     display: none;
   }
@@ -299,12 +317,115 @@ footer {
     width: 100%;
     height: 64px;
   }
+
+  /*   LEARN    */
   .learn{
     display: inline;
+    background-color: grey;
 
+
+  }
+  .learn .left{
+    width: 100%;
+    background-color: grey;
   }
   .learn .right{
     background-color: grey;
     width: 100%;
+    padding-bottom: 2rem;
   }
+  .learn .right button{
+
+
+  }
+  .learn .right h1{
+    padding-top: 2rem;
+  }
+  .learn .right h3{
+    padding-bottom: 1.5rem;
+  }
+
+/*    CAMPUS INFO  */
+.about .left{
+  display: none;
+}
+.about .right .info{
+  display: inline;
+
+}
+.about .right h2, h4, button{
+  padding-left: 1rem;
+}
+.about .right .moreinfo{
+  padding-bottom: 2rem;
+}
+.startlearn{
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+/*  DEGREES */
+.degrees{
+  display: none;
+
+
+}
+.mobiledegree{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+
+}
+.mobiledegree h1{
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  background-color: grey;
+
+}
+.mobiledegree span{
+  padding-bottom: 0.5rem;
+
+}
+
+/* THESIS  */
+
+.thesis{
+  padding: 1rem 0;
+}
+.thesis .right{
+  display: none;
+}
+.thesis .left{
+  padding-left: 0;
+  width: 100%;
+}
+.thesis .left video{
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+.thesis .left h1, h3{
+  display: none;
+}
+.thesislearn{
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+/*   FOOTER    */
+footer nav{
+  display: none;
+}
+footer span{
+  padding: 1rem 0;
+}
+
+
+
+
+
 }
