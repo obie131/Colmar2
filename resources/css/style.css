@@ -21,9 +21,6 @@ h1{
 }
 
 
-.container {
-  width: 100%;
-}
 
 
 /*            HEADER               */
@@ -288,6 +285,7 @@ a:hover{
 
 .thesis .left img {
   width: 100%;
+
 }
 
 .thesis .left h1 {
@@ -374,6 +372,7 @@ footer {
   .learn{
     display: inline;
     background-color: #0F1525;
+    padding: 0;
 
 
   }
