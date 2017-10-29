@@ -207,9 +207,11 @@ a:hover{
   justify-content: center;
   width: 100%;
   font-size: 4rem;
-  padding: 2rem 0;
   background-color: #0F1525;
   color: #F2F1F1;
+}
+.startlearn h1{
+  padding: 2rem 2rem;
 }
 
 
@@ -220,7 +222,7 @@ a:hover{
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  padding: 2rem 4rem;
+  padding: 2rem 0;
   background-color: #0F1525;
 }
 
@@ -274,13 +276,14 @@ a:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 1.5rem;
+  padding: 2rem 0;
   width: 100%;
   background-color: #CECDCD;
 }
 
 .thesis .left {
   width: 60%;
+  padding: 0 1.5rem;
 }
 
 .thesis .left img {
