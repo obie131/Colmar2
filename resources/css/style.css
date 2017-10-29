@@ -1,7 +1,24 @@
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Oswald', sans-serif;
+
+*/
+
 html {
   font-size: 16px;
   line-height: 1.2;
+
 }
+nav, button, span, h3, h4{
+  font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+
+}
+
 
 .container {
   width: 960px;
@@ -15,6 +32,7 @@ header {
   justify-content: space-between;
   padding: 1rem 1.5rem;
   width: 100%;
+  background-color: #494e6b;
 }
 
 .logo {
@@ -30,7 +48,7 @@ header {
 }
 
 .lastword {
-  color: grey;
+  color: #98878f;
 }
 
 nav ul li {
@@ -50,7 +68,7 @@ nav ul li {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1.5rem;
-  background-color: darkgrey;
+  background-color: #192231;
   width: 100%;
 }
 
@@ -87,6 +105,8 @@ nav ul li {
   font-size: 2.5rem;
   width: 100%;
   padding: 0.5rem 0;
+  background-color: black;
+  color: #4B4E57;
 }
 
 
@@ -98,6 +118,7 @@ nav ul li {
   align-items: center;
   padding: 2rem 1.5rem;
   width: 100%;
+  background-color: #494e6b;
 }
 
 .about .left {
@@ -148,9 +169,9 @@ nav ul li {
 }
 
 .about .right button {
-  background-color: white;
+  background-color: #494e6b;
   border: none;
-  color: blue;
+    color: #192231;
 }
 
 .about .right .info img {
@@ -164,7 +185,7 @@ nav ul li {
   width: 100%;
   font-size: 4rem;
   padding: 2rem 0;
-  background-color: grey;
+  background-color: #192231;
 }
 
 
@@ -176,11 +197,11 @@ nav ul li {
   justify-content: space-around;
   width: 100%;
   padding: 2rem 4rem;
-  background-color: grey;
+  background-color: #192231;
 }
 
 .degrees .program {
-  background-color: white;
+  background-color: #98536d;
   padding: 2rem 1rem;
 }
 
@@ -219,6 +240,7 @@ nav ul li {
   width: 100%;
   font-size: 4rem;
   padding: 2rem 0;
+  background-color: #494e6b;
 
 }
 
@@ -230,6 +252,7 @@ nav ul li {
   align-items: center;
   padding: 2rem 1.5rem;
   width: 100%;
+  background-color: #494e6b;
 }
 
 .thesis .left {
