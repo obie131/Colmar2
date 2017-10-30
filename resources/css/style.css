@@ -29,7 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  width: 100%;
+
   background-color: #2B74C3;
   color: #F2F1F1;
 }
@@ -80,7 +80,7 @@ a:hover{
   align-items: center;
   padding: 2rem 1.5rem;
   background-color: #0F1525;
-  width: 100%;
+
   color: #F2F1F1;
 }
 
@@ -140,7 +140,7 @@ a:hover{
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1.5rem;
-  width: 100%;
+
   background-color: #CECDCD;
 }
 
@@ -205,7 +205,7 @@ a:hover{
 .startlearn {
   display: flex;
   justify-content: center;
-  width: 100%;
+
   font-size: 4rem;
   background-color: #0F1525;
   color: #F2F1F1;
@@ -221,7 +221,7 @@ a:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
+
   padding: 2rem 0;
   background-color: #0F1525;
 }
@@ -263,7 +263,7 @@ a:hover{
 .thesislearn {
   display: flex;
   justify-content: center;
-  width: 100%;
+
   font-size: 4rem;
   padding: 2rem 0;
   background-color: #CECDCD;
@@ -277,7 +277,7 @@ a:hover{
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
-  width: 100%;
+
   background-color: #CECDCD;
 }
 
@@ -341,7 +341,7 @@ a:hover{
 footer {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  
   padding: 1rem 2rem;
   font-size: 1rem;
   background-color: #2B74C3;
